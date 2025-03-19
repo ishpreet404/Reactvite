@@ -56,3 +56,15 @@
     left: 40%;
     
 }
+.scards{  
+    width: 200px;
+    height: 300px;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+
+}
+.shimmercon{
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -3,6 +3,7 @@ import Restaurant from "./Restaurant";
 import { useState } from "react";
 import Stack from '@mui/material/Stack';
 import CircularProgress from '@mui/material/CircularProgress';
+import Shimmer from "./Shimmer";
 
 // import reslist from "../../utils/mockdata";
 
@@ -50,11 +51,10 @@ const Body = () => {
         setListOfRes(ress);
     };
     if(listofres.length===0){
-        return ( <Stack spacing={2} direction="row" alignItems="center">
-           
-            <CircularProgress size={200} className="loadingcomp"/>
-           
-          </Stack>)
+        // return ( <Stack spacing={2} direction="row" alignItems="center">
+        //     <CircularProgress size={200} className="loadingcomp"/>
+        //   </Stack>)
+        return <Shimmer/>;
     }
     return (
         <div className="body">
