@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Restaurant from "./Restaurant";
 import { useState } from "react";
-import reslist from "../../utils/mockdata";
+// import reslist from "../../utils/mockdata";
 
 const Body = () => {
 
@@ -43,6 +43,8 @@ const Body = () => {
         // const data = await fetch("https://catfact.ninja/fact");
         const json = await data.json();
         console.log(json);
+        const ress  = json.data.cards[1].card.card.gridElements.infoWithStyle.restaurants;
+        setListOfRes(ress);
     };
     
     return (
@@ -52,7 +54,7 @@ const Body = () => {
                     className="top-btn"
                     onClick={() => {
                         // Update the state with filtered restaurants
-                        setListOfRes(reslist);
+                        // setListOfRes(reslist);
                         // setListOfRes(listofres.filter((res) => res.info.avgRating > 4));
                     }}
                 >
