@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import Restaurant from "./Restaurant";
 import { useState } from "react";
+import Stack from '@mui/material/Stack';
+import CircularProgress from '@mui/material/CircularProgress';
+
 // import reslist from "../../utils/mockdata";
 
 const Body = () => {
@@ -46,7 +49,13 @@ const Body = () => {
         const ress  = json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
         setListOfRes(ress);
     };
-    
+    if(listofres.length===0){
+        return ( <Stack spacing={2} direction="row" alignItems="center">
+           
+            <CircularProgress size={200} className="loadingcomp"/>
+           
+          </Stack>)
+    }
     return (
         <div className="body">
             <div className="filter">
