@@ -50,6 +50,7 @@ const Body = () => {
         const ress  = json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
         setListOfRes(ress);
     };
+    //conditional rendering
     if(listofres.length===0){
         // return ( <Stack spacing={2} direction="row" alignItems="center">
         //     <CircularProgress size={200} className="loadingcomp"/>

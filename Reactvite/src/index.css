@@ -68,3 +68,8 @@
     display: flex;
     flex-wrap: wrap;
 }
+.logbtn{
+    padding: 10px;
+    margin: auto;
+    cursor: pointer;
+}
