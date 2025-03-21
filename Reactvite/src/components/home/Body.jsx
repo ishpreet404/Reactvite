@@ -38,6 +38,7 @@ const Body = () => {
         //     },
         // },
     ]);
+    const [search ,setsearch] = useState(" ")
     useEffect(()=>{
         fetchData();
     },[])
@@ -46,7 +47,6 @@ const Body = () => {
         const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.65420&lng=77.23730&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
         // const data = await fetch("https://catfact.ninja/fact");
         const json = await data.json();
-        console.log(json);
         const ress  = json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
         setListOfRes(ress);
     };
@@ -60,6 +60,17 @@ const Body = () => {
     return (
         <div className="body">
             <div className="filter">
+                <div>
+                <input type="text" className="Search" value={search}
+                onChange={(e)=>{
+                    setsearch(e.target.value);
+                }}/>
+                <button onClick={()=>{
+                    //filter 
+                    console.log(search);
+                    
+                }}>Search</button>
+                </div>
                 <button
                     className="top-btn"
                     onClick={() => {
