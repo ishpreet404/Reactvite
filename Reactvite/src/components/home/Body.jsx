@@ -39,6 +39,7 @@ const Body = () => {
         // },
     ]);
     const [search ,setsearch] = useState(" ")
+    const [templis ,settemp] = useState([])
     useEffect(()=>{
         fetchData();
     },[])
@@ -47,8 +48,11 @@ const Body = () => {
         const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.65420&lng=77.23730&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
         // const data = await fetch("https://catfact.ninja/fact");
         const json = await data.json();
+        console.log(json);
+        
         const ress  = json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
         setListOfRes(ress);
+        settemp(ress);
     };
     //conditional rendering
     if(listofres.length===0){
@@ -63,11 +67,13 @@ const Body = () => {
                 <div>
                 <input type="text" className="Search" value={search}
                 onChange={(e)=>{
-                    setsearch(e.target.value);
+                    setsearch(e.target.value); //reconsisaltion (rerenders all the code)
                 }}/>
                 <button onClick={()=>{
                     //filter 
                     console.log(search);
+                    const filteredres =listofres.filter((res)=>res.info.name.includes(search));
+                    settemp(filteredres);
                     
                 }}>Search</button>
                 </div>
@@ -83,7 +89,7 @@ const Body = () => {
                 </button>
             </div>
             <div className="res-cont">
-                {listofres.map((restaurant) => (
+                {templis.map((restaurant) => (
                     <Restaurant key={restaurant.info.id} resData={restaurant} />
                 ))}
             </div>
