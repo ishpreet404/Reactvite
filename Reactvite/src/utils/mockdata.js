@@ -1,4 +1,4 @@
-//no need of mockdata api dal di 
+//no need of mockdata api dal di
 // const reslist = [
 //   {
 //     "info": {
@@ -53,10 +53,10 @@
 //             ]
 //           },
 //           "textBased": {
-            
+
 //           },
 //           "textExtendedBadges": {
-            
+
 //           }
 //         }
 //       },
@@ -68,19 +68,19 @@
 //         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
 //         "differentiatedUiMediaDetails": {
 //           "lottie": {
-            
+
 //           },
 //           "video": {
-            
+
 //           }
 //         }
 //       },
 //       "reviewsSummary": {
-        
+
 //       },
 //       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
 //       "restaurantOfferPresentationInfo": {
-        
+
 //       },
 //       "externalRatings": {
 //         "aggregatedRating": {
@@ -134,7 +134,7 @@
 //       },
 //       "isOpen": true,
 //       "aggregatedDiscountInfoV2": {
-        
+
 //       },
 //       "type": "F",
 //       "badgesV2": {
@@ -150,10 +150,10 @@
 //             ]
 //           },
 //           "textBased": {
-            
+
 //           },
 //           "textExtendedBadges": {
-            
+
 //           }
 //         }
 //       },
@@ -161,19 +161,19 @@
 //         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
 //         "differentiatedUiMediaDetails": {
 //           "lottie": {
-            
+
 //           },
 //           "video": {
-            
+
 //           }
 //         }
 //       },
 //       "reviewsSummary": {
-        
+
 //       },
 //       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
 //       "restaurantOfferPresentationInfo": {
-        
+
 //       },
 //       "externalRatings": {
 //         "aggregatedRating": {
@@ -241,10 +241,10 @@
 //             ]
 //           },
 //           "textBased": {
-            
+
 //           },
 //           "textExtendedBadges": {
-            
+
 //           }
 //         }
 //       },
@@ -256,19 +256,19 @@
 //         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
 //         "differentiatedUiMediaDetails": {
 //           "lottie": {
-            
+
 //           },
 //           "video": {
-            
+
 //           }
 //         }
 //       },
 //       "reviewsSummary": {
-        
+
 //       },
 //       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
 //       "restaurantOfferPresentationInfo": {
-        
+
 //       },
 //       "externalRatings": {
 //         "aggregatedRating": {
@@ -316,20 +316,20 @@
 //         "opened": true
 //       },
 //       "badges": {
-        
+
 //       },
 //       "isOpen": true,
 //       "type": "F",
 //       "badgesV2": {
 //         "entityBadges": {
 //           "imageBased": {
-            
+
 //           },
 //           "textBased": {
-            
+
 //           },
 //           "textExtendedBadges": {
-            
+
 //           }
 //         }
 //       },
@@ -342,19 +342,19 @@
 //         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
 //         "differentiatedUiMediaDetails": {
 //           "lottie": {
-            
+
 //           },
 //           "video": {
-            
+
 //           }
 //         }
 //       },
 //       "reviewsSummary": {
-        
+
 //       },
 //       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
 //       "restaurantOfferPresentationInfo": {
-        
+
 //       },
 //       "externalRatings": {
 //         "aggregatedRating": {
@@ -423,10 +423,10 @@
 //             ]
 //           },
 //           "textBased": {
-            
+
 //           },
 //           "textExtendedBadges": {
-            
+
 //           }
 //         }
 //       },
@@ -438,19 +438,19 @@
 //         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
 //         "differentiatedUiMediaDetails": {
 //           "lottie": {
-            
+
 //           },
 //           "video": {
-            
+
 //           }
 //         }
 //       },
 //       "reviewsSummary": {
-        
+
 //       },
 //       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
 //       "restaurantOfferPresentationInfo": {
-        
+
 //       },
 //       "externalRatings": {
 //         "aggregatedRating": {
@@ -519,10 +519,10 @@
 //             ]
 //           },
 //           "textBased": {
-            
+
 //           },
 //           "textExtendedBadges": {
-            
+
 //           }
 //         }
 //       },
@@ -534,19 +534,19 @@
 //         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
 //         "differentiatedUiMediaDetails": {
 //           "lottie": {
-            
+
 //           },
 //           "video": {
-            
+
 //           }
 //         }
 //       },
 //       "reviewsSummary": {
-        
+
 //       },
 //       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
 //       "restaurantOfferPresentationInfo": {
-        
+
 //       },
 //       "externalRatings": {
 //         "aggregatedRating": {
@@ -614,10 +614,10 @@
 //             ]
 //           },
 //           "textBased": {
-            
+
 //           },
 //           "textExtendedBadges": {
-            
+
 //           }
 //         }
 //       },
@@ -629,19 +629,19 @@
 //         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
 //         "differentiatedUiMediaDetails": {
 //           "lottie": {
-            
+
 //           },
 //           "video": {
-            
+
 //           }
 //         }
 //       },
 //       "reviewsSummary": {
-        
+
 //       },
 //       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
 //       "restaurantOfferPresentationInfo": {
-        
+
 //       },
 //       "externalRatings": {
 //         "aggregatedRating": {
@@ -718,10 +718,10 @@
 //             ]
 //           },
 //           "textBased": {
-            
+
 //           },
 //           "textExtendedBadges": {
-            
+
 //           }
 //         }
 //       },
@@ -733,19 +733,19 @@
 //         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
 //         "differentiatedUiMediaDetails": {
 //           "lottie": {
-            
+
 //           },
 //           "video": {
-            
+
 //           }
 //         }
 //       },
 //       "reviewsSummary": {
-        
+
 //       },
 //       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
 //       "restaurantOfferPresentationInfo": {
-        
+
 //       },
 //       "externalRatings": {
 //         "aggregatedRating": {
@@ -815,10 +815,10 @@
 //             ]
 //           },
 //           "textBased": {
-            
+
 //           },
 //           "textExtendedBadges": {
-            
+
 //           }
 //         }
 //       },
@@ -830,19 +830,19 @@
 //         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
 //         "differentiatedUiMediaDetails": {
 //           "lottie": {
-            
+
 //           },
 //           "video": {
-            
+
 //           }
 //         }
 //       },
 //       "reviewsSummary": {
-        
+
 //       },
 //       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
 //       "restaurantOfferPresentationInfo": {
-        
+
 //       },
 //       "externalRatings": {
 //         "aggregatedRating": {
@@ -892,20 +892,20 @@
 //         "opened": true
 //       },
 //       "badges": {
-        
+
 //       },
 //       "isOpen": true,
 //       "type": "F",
 //       "badgesV2": {
 //         "entityBadges": {
 //           "imageBased": {
-            
+
 //           },
 //           "textBased": {
-            
+
 //           },
 //           "textExtendedBadges": {
-            
+
 //           }
 //         }
 //       },
@@ -917,19 +917,19 @@
 //         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
 //         "differentiatedUiMediaDetails": {
 //           "lottie": {
-            
+
 //           },
 //           "video": {
-            
+
 //           }
 //         }
 //       },
 //       "reviewsSummary": {
-        
+
 //       },
 //       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
 //       "restaurantOfferPresentationInfo": {
-        
+
 //       },
 //       "externalRatings": {
 //         "aggregatedRating": {
@@ -1000,10 +1000,10 @@
 //             ]
 //           },
 //           "textBased": {
-            
+
 //           },
 //           "textExtendedBadges": {
-            
+
 //           }
 //         }
 //       },
@@ -1015,19 +1015,19 @@
 //         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
 //         "differentiatedUiMediaDetails": {
 //           "lottie": {
-            
+
 //           },
 //           "video": {
-            
+
 //           }
 //         }
 //       },
 //       "reviewsSummary": {
-        
+
 //       },
 //       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
 //       "restaurantOfferPresentationInfo": {
-        
+
 //       },
 //       "externalRatings": {
 //         "aggregatedRating": {
@@ -1100,10 +1100,10 @@
 //             ]
 //           },
 //           "textBased": {
-            
+
 //           },
 //           "textExtendedBadges": {
-            
+
 //           }
 //         }
 //       },
@@ -1116,19 +1116,19 @@
 //         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
 //         "differentiatedUiMediaDetails": {
 //           "lottie": {
-            
+
 //           },
 //           "video": {
-            
+
 //           }
 //         }
 //       },
 //       "reviewsSummary": {
-        
+
 //       },
 //       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
 //       "restaurantOfferPresentationInfo": {
-        
+
 //       },
 //       "externalRatings": {
 //         "aggregatedRating": {
@@ -1145,4 +1145,3 @@
 //       "type": "WEBLINK"
 //     }
 //   }];
-

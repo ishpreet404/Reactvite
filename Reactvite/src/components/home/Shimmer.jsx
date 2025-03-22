@@ -23,13 +23,12 @@ import { ShimmerSimpleGallery } from "react-shimmer-effects";
 //             <div className="scards">cards</div>
 //             <div className="scards">cards</div>
 //             <div className="scards">cards</div>
-            
+
 //         </div>
 //     )
 // }
 // export default Shimmer;
-const Shimmer = ()=>{
-    return <ShimmerSimpleGallery card imageHeight={200} />
-
-}
+const Shimmer = () => {
+  return <ShimmerSimpleGallery card imageHeight={200} />;
+};
 export default Shimmer;
