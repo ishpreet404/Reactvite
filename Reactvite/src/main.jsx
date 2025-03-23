@@ -7,6 +7,7 @@ import Aboutus from "./components/Pages/About";
 import Contact from "./components/Pages/Contact";
 import Error from "./components/Pages/Error";
 import Body from "./components/home/Body";
+import Resmenu from "./components/Pages/ResMenu";
 
 const appRouter = createBrowserRouter([
   {
@@ -22,7 +23,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
-      },
+      }, {
+        path: "restaurant/:resid",
+        element : <Resmenu/>
+      }
     ],
   },
 ]);
