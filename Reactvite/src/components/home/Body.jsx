@@ -4,6 +4,7 @@ import { useState } from "react";
 import Stack from "@mui/material/Stack";
 import CircularProgress from "@mui/material/CircularProgress";
 import Shimmer from "./Shimmer";
+import { Link } from "react-router-dom";
 
 // import reslist from "../../utils/mockdata";
 
@@ -103,7 +104,13 @@ const Body = () => {
       </div>
       <div className="res-cont">
         {templis.map((restaurant) => (
-          <Restaurant key={restaurant.info.id} resData={restaurant} />
+          <Link
+            underline="none"
+            key={restaurant.info.id} 
+            to={"restaurant/" + restaurant.info.id}>
+            
+          <Restaurant  resData={restaurant} />
+          </Link>
         ))}
       </div>
     </div>
