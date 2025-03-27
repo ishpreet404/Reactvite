@@ -4,15 +4,23 @@ import React from "react";
 class UserClass extends React.Component {
     constructor(props) {
         super(props)
-        // this.state={  //state variable 
-        //     count: 0,
-            
-        // }
+        this.state={  //state variable 
+            // count: 0,
+            userinfo: "x",
+        }
         // console.log(this.props.name + "constructor called");
     }
-    componentDidMount() {
-        console.log(this.props.name + "component did mount is used to call api ");
+    async componentDidMount() {
+        // console.log(this.props.name + "component did mount is used to call api ");
         //because basic componets load hone ke baad api ki data aayega aur render ho jayega basically we will not have to wait for the data from api to render the webpage ui 
+        const data = await fetch("https://api.github.com/users/ishpreet404");
+        const json = await data.json();
+        this.setState({
+            userinfo:json,
+            
+        })
+        console.log(json);
+        
         
     }
     render() {
@@ -32,6 +40,7 @@ class UserClass extends React.Component {
                     })
                 }}>RESET  count </button> */}
                 <h1>Name : {name}</h1>
+                <h1>Github UserName : {this.state.userinfo.login}</h1>
                 <h3>Location : Delhi</h3>
                 <h4>Contact: ishpreet@outlook.in</h4>
             </div>
