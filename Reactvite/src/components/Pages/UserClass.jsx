@@ -41,7 +41,7 @@ class UserClass extends React.Component {
                 }}>RESET  count </button> */}
                 <h1>Name : {name}</h1>
                 <h1>Github UserName : {this.state.userinfo.login}</h1>
-                <h3>Location : Delhi</h3>
+                 <img className="avatar" src={this.state.userinfo.avatar_url} alt="avatar" /> 
                 <h4>Contact: ishpreet@outlook.in</h4>
             </div>
         )
