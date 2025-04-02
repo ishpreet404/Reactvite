@@ -25,10 +25,10 @@ class UserClass extends React.Component {
     }
     render() {
         console.log(this.props.name + "render called");
-        const { name } = this.props;
+        // const { name } = this.props;
         return (
             <div className="user-card">
-                <h1>Count :{this.state.count}</h1>
+                {/* <h1>Count :{this.state.count}</h1>
                 { { <button onClick={() => { }
                     this.setState({
                         count: this.state.count + 1,
@@ -39,7 +39,7 @@ class UserClass extends React.Component {
                         count: 0,
                     })
                 }}>RESET  count </button> }
-                <h1>Name : {name}</h1>
+                <h1>Name : {name}</h1> */}
                 <h1>Github UserName : {this.state.userinfo.login}</h1>
                  <img className="avatar" src={this.state.userinfo.avatar_url} alt="avatar" /> 
                 <h4>Contact: ishpreet@outlook.in</h4>
