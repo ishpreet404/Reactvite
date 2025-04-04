@@ -16,7 +16,7 @@ const Resmenu = () => {
     const cuisines  = resInfo?.data?.cards[2]?.card?.card?.info.cuisines.join(",");
     const costfortwo = resInfo?.data?.cards[2]?.card?.card?.info.costForTwoMessage;
     const itemCards = resInfo?.data.cards[4].groupedCard.cardGroupMap.REGULAR.cards[1].card.card.itemCards;
-    const itemprice = resInfo?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card?.itemCards[0]?.card?.info.price;
+    // const itemprice = resInfo?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card?.itemCards[0]?.card?.info.price;
     if (resInfo===null) return <Shimmer/>;
 
     const meo = itemCards.map((bo) => {
