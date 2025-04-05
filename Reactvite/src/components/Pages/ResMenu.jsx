@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import Shimmer from "../home/Shimmer";
 import { useParams } from "react-router-dom";
-import { MENU_API } from "../../utils/constants";
+// import { MENU_API } from "../../utils/constants";
 import useResmenu from "../../utils/useResmenu";
 
 const Resmenu = () => {
