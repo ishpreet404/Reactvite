@@ -12,7 +12,7 @@ const Header = () => {
     //everytime page renders useffect is called if no dependancy array
     // console.log("usecalles");
   });
- 
+  const ison = useOnlineStatus(); 
   return (
     <div className="Header">
       <div className="logo-container">
@@ -20,6 +20,7 @@ const Header = () => {
       </div>
       <div className="navbar-items">
         <ul>
+          <li>Online Status : { ison? "🟢" : "🔴" }</li>
           <li><Link to="/">Home</Link></li> 
           {/* Link does not refreshes the whole page and imporves performace as compared to anchor tag here header will not be rerndered or refreshed only outlet gets refreshes  */}
           {/* thats why react websites are knows as Single page application  */}
