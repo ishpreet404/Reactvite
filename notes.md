@@ -5,4 +5,5 @@ Link does not refreshes the whole page and imporves performace as compared to an
 when class is instantiated constructor is called then render method is called 
 in a parent chd relationship parent componenet did mount is called after the child life cycle is finished and rendered thats why it used to call api in class based components
 component did update/mount/unmout 
-chunking code splitting dynamic bundling 
+chunking code splitting dynamic bundling
+lazy loading or on demand loadng 

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { lazy,Suspense } from "react";
 import ReactDOM from "react-dom/client";
 import App from "../App";
 import "./index.css";
@@ -8,8 +8,10 @@ import Contact from "./components/Pages/Contact";
 import Error from "./components/Pages/Error";
 import Body from "./components/home/Body";
 import Resmenu from "./components/Pages/ResMenu";
-import Groceries from "./components/instamart/gorceries";
-
+import Shimmer from "./components/home/Shimmer";
+// import Groceries from "./components/instamart/gorceries";
+const Groceries = lazy(() => import("./components/instamart/gorceries"));
+//lazy loading or on demand loadng
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -30,7 +32,9 @@ const appRouter = createBrowserRouter([
       }
       , {
         path: "/grocery",
-        element : <Groceries/>
+        element: <Suspense fallback={<Shimmer/>}> 
+          <Groceries/>  
+        </Suspense>
       }
     ],
   },
