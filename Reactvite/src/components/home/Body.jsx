@@ -5,6 +5,7 @@ import Stack from "@mui/material/Stack";
 import CircularProgress from "@mui/material/CircularProgress";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
+import useOnlineStatus from "../../utils/useOnlineStatus";
 
 // import reslist from "../../utils/mockdata";
 
@@ -59,6 +60,10 @@ const Body = () => {
     setListOfRes(ress);
     settemp(ress);
   };
+   const isOnline = useOnlineStatus();
+  if (!isOnline) return <h1>You are offline</h1>;
+  console.log(isOnline);
+  
   //conditional rendering
   if (listofres.length === 0) {
     // return ( <Stack spacing={2} direction="row" alignItems="center">
