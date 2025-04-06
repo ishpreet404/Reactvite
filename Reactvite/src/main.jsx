@@ -8,6 +8,7 @@ import Contact from "./components/Pages/Contact";
 import Error from "./components/Pages/Error";
 import Body from "./components/home/Body";
 import Resmenu from "./components/Pages/ResMenu";
+import Groceries from "./components/instamart/gorceries";
 
 const appRouter = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const appRouter = createBrowserRouter([
       }, {
         path: "restaurant/:resid",
         element : <Resmenu/>
+      }
+      , {
+        path: "/grocery",
+        element : <Groceries/>
       }
     ],
   },
