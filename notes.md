@@ -7,3 +7,7 @@ in a parent chd relationship parent componenet did mount is called after the chi
 component did update/mount/unmout 
 chunking code splitting dynamic bundling
 lazy loading or on demand loadng 
+we can write css in the below mentioned ways =>
+styled componenent
+sass
+tailwind/material ui /bootstrap/chakra ui/ant design
