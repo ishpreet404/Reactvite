@@ -32,3 +32,4 @@ const Shimmer = () => {
   return <ShimmerSimpleGallery card imageHeight={200} />;
 };
 export default Shimmer;
+
