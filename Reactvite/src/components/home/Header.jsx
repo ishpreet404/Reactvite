@@ -14,7 +14,7 @@ const Header = () => {
   });
   const ison = useOnlineStatus(); 
   return (
-    <div className="flex item-center ">
+    <div className="flex item-center p-10 w-10 ">
       <div className="logo-container">
         <img className="w-10" src={LOGO_URL} />
       </div>
