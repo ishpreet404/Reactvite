@@ -19,7 +19,7 @@ const Header = () => {
         <img className="w-10" src={LOGO_URL} />
       </div>
       <div className="navbar-items justify-centre ">
-        <ul className="flex p-4 m-4 ">
+        <ul className="flex p-4 m-4 bg-blue ">
           <li>Online Status : { ison? "🟢" : "🔴" }</li>
           <li><Link to="/">Home</Link></li> 
           {/* Link does not refreshes the whole page and imporves performace as compared to anchor tag here header will not be rerndered or refreshed only outlet gets refreshes  */}
